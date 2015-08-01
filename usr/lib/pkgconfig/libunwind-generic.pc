@@ -1,0 +1,10 @@
+prefix=/home/xcapia/julia/usr
+exec_prefix=${prefix}
+libdir=/home/xcapia/julia/usr/lib
+includedir=${prefix}/include
+
+Name: libunwind-generic
+Description: libunwind generic library
+Version: 1.1
+Requires: libunwind
+Libs: -L${libdir} -lunwind-generic
